@@ -4,9 +4,9 @@ import streamlit as st
 import joblib
 from tensorflow.keras.models import load_model
 
-model=load_model("batch2_deepLearningmodel.keras")
-minMax=joblib.load("minmax (2).joblib")
-x_enc=joblib.load("x_enc (2).joblib")
+model=load_model("Deep_Model_1.keras")
+minMax=joblib.load("minMax.joblib")
+x_enc=joblib.load("x_enc.joblib")
 x_enc=list(dict.fromkeys(x_enc))
 
 st.set_page_config(
