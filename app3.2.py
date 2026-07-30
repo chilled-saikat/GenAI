@@ -3,10 +3,10 @@ from config import API
 
 client=genai.Client(api_key=API)
 
-print("==========="*50)
+print("=="*50)
 print("This is Gemini Powered Chatbot")
 print("\nIf you want to exit the chatbot then AI CHATBOT EXIT")
-print("==========="*50)
+print("=="*50)
 
 while True:
     user_input = input("\nYou Question: ")
